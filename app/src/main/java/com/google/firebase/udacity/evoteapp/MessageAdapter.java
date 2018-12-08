@@ -1,4 +1,4 @@
-package com.google.firebase.udacity.friendlychat;
+package com.google.firebase.udacity.evoteapp;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.firebase.udacity.friendlychat">
+    package="com.google.firebase.udacity.evoteapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -8,15 +8,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Friendly Chat"
+        android:label="Evote App"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.google.firebase.udacity.evoteapp.MainActivity">
         </activity>
 
-        <activity android:name=".SplashScreen"
-            android:label="Friendly Chat">
+        <activity android:name="com.google.firebase.udacity.evoteapp.SplashScreen"
+            android:label="Evote App">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
